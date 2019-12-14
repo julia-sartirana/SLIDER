@@ -27,10 +27,6 @@ body {
 .selector-img-container {
     list-style: none;  
 }
-.selector-container {
-    width: 100%;
-    text-align: center;
-}
 .selector {
     width: 20px;
     height: 20px;
@@ -44,16 +40,19 @@ body {
     position: absolute;
     right: calc(50% - 500px);
     display: none;
+    top: 200px;
 }
 .first {
     display: block;
 }
 .selector-container {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: relative;
-    bottom: 10px;
-    left: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 .selector:hover {
     background-color: #808080;
